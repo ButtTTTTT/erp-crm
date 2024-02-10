@@ -1,0 +1,64 @@
+09:20:09.013 [Thread-15] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+09:20:16.576 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarting,55] - Starting ErpCrmApplication using Java 1.8.0_144 on UNKNNOW with PID 33308 (D:\projects\erp-crm\center\target\classes started by 14280 in D:\projects\erp-crm)
+09:20:16.577 [restartedMain] INFO  c.e.ErpCrmApplication - [logStartupProfileInfo,674] - The following profiles are active: druid
+09:20:16.578 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+09:20:18.842 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+09:20:18.843 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:20:18.843 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+09:20:18.910 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:20:20.134 [restartedMain] INFO  c.a.c.c.AjCaptchaServiceAutoConfiguration - [captchaService,33] - 自定义配置项：
+AjCaptchaProperties{type=DEFAULT, jigsaw='classpath:images/jigsaw', picClick='classpath:images/pic-click', waterMark='我的水印', waterFont='WenQuanZhengHei.ttf', fontType='WenQuanZhengHei.ttf', slipOffset='5', aesStatus=true, interferenceOptions='2', cacheNumber='1000', timingClear='180', cacheType=local, reqFrequencyLimitEnable=false, reqGetLockLimit=5, reqGetLockSeconds=360, reqGetMinuteLimit=30, reqCheckMinuteLimit=30, reqVerifyMinuteLimit=100}
+09:20:20.182 [restartedMain] INFO  c.a.c.u.ImageUtils - [cacheBootImage,58] - 自定义resource底图:[SLIDING_BLOCK=[Ljava.lang.String;@170f3c6a, ORIGINAL=[Ljava.lang.String;@3cd665de, PIC_CLICK=[Ljava.lang.String;@3461aa79]
+09:20:20.185 [restartedMain] INFO  c.a.c.s.i.CaptchaServiceFactory - [<clinit>,52] - supported-captchaCache-service:[redis, local]
+09:20:20.189 [restartedMain] INFO  c.a.c.s.i.CaptchaServiceFactory - [<clinit>,58] - supported-captchaTypes-service:[clickWord, default, blockPuzzle]
+09:20:20.189 [restartedMain] INFO  c.a.c.s.i.ClickWordCaptchaServiceImpl - [init,76] - --->>>初始化验证码底图<<<---clickWord
+09:20:20.287 [restartedMain] INFO  c.a.c.s.i.ClickWordCaptchaServiceImpl - [init,92] - 初始化local缓存...
+09:20:20.356 [restartedMain] INFO  c.a.c.s.i.BlockPuzzleCaptchaServiceImpl - [init,76] - --->>>初始化验证码底图<<<---blockPuzzle
+09:20:20.433 [restartedMain] INFO  c.a.c.s.i.BlockPuzzleCaptchaServiceImpl - [init,92] - 初始化local缓存...
+09:20:21.964 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+09:20:22.181 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarted,61] - Started ErpCrmApplication in 5.818 seconds (JVM running for 6.981)
+09:58:10.708 [http-nio-8083-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:58:23.474 [http-nio-8083-exec-3] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+09:59:05.726 [http-nio-8083-exec-4] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+09:59:25.251 [http-nio-8083-exec-6] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+09:59:25.346 [http-nio-8083-exec-6] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+09:59:40.035 [http-nio-8083-exec-7] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+14:30:32.031 [Thread-15] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+14:30:32.380 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarting,55] - Starting ErpCrmApplication using Java 1.8.0_144 on UNKNNOW with PID 33308 (D:\projects\erp-crm\center\target\classes started by 14280 in D:\projects\erp-crm)
+14:30:32.381 [restartedMain] INFO  c.e.ErpCrmApplication - [logStartupProfileInfo,674] - The following profiles are active: druid
+14:30:34.313 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+14:30:34.313 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:30:34.313 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:30:34.339 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:30:34.357 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+14:30:36.025 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarting,55] - Starting ErpCrmApplication using Java 1.8.0_144 on UNKNNOW with PID 33308 (D:\projects\erp-crm\center\target\classes started by 14280 in D:\projects\erp-crm)
+14:30:36.025 [restartedMain] INFO  c.e.ErpCrmApplication - [logStartupProfileInfo,674] - The following profiles are active: druid
+14:30:37.293 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+14:30:37.293 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:30:37.294 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:30:37.309 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:30:37.799 [restartedMain] INFO  c.a.c.c.AjCaptchaServiceAutoConfiguration - [captchaService,33] - 自定义配置项：
+AjCaptchaProperties{type=DEFAULT, jigsaw='classpath:images/jigsaw', picClick='classpath:images/pic-click', waterMark='我的水印', waterFont='WenQuanZhengHei.ttf', fontType='WenQuanZhengHei.ttf', slipOffset='5', aesStatus=true, interferenceOptions='2', cacheNumber='1000', timingClear='180', cacheType=local, reqFrequencyLimitEnable=false, reqGetLockLimit=5, reqGetLockSeconds=360, reqGetMinuteLimit=30, reqCheckMinuteLimit=30, reqVerifyMinuteLimit=100}
+14:30:37.825 [restartedMain] INFO  c.a.c.u.ImageUtils - [cacheBootImage,58] - 自定义resource底图:[SLIDING_BLOCK=[Ljava.lang.String;@37b9d7cb, ORIGINAL=[Ljava.lang.String;@2409cc96, PIC_CLICK=[Ljava.lang.String;@3e3e9304]
+14:30:37.825 [restartedMain] INFO  c.a.c.s.i.ClickWordCaptchaServiceImpl - [init,76] - --->>>初始化验证码底图<<<---clickWord
+14:30:37.898 [restartedMain] INFO  c.a.c.s.i.ClickWordCaptchaServiceImpl - [init,92] - 初始化local缓存...
+14:30:37.972 [restartedMain] INFO  c.a.c.s.i.BlockPuzzleCaptchaServiceImpl - [init,76] - --->>>初始化验证码底图<<<---blockPuzzle
+14:30:38.042 [restartedMain] INFO  c.a.c.s.i.BlockPuzzleCaptchaServiceImpl - [init,92] - 初始化local缓存...
+14:30:38.843 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+14:30:38.926 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarted,61] - Started ErpCrmApplication in 2.939 seconds (JVM running for 18631.137)
+16:31:55.202 [http-nio-8083-exec-1] INFO  o.a.t.u.h.p.Cookie - [log,173] - A cookie header was received [1695111133; Hm_lpvt_3001eae9cdf02ed76cee8bac226bbb67=1695112313; Tenant-Key=tenant1] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+16:31:55.208 [http-nio-8083-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:31:55.247 [http-nio-8083-exec-1] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+16:31:55.275 [http-nio-8083-exec-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-2} inited
+16:35:11.453 [http-nio-8083-exec-2] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+16:35:37.673 [http-nio-8083-exec-3] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+16:35:37.684 [http-nio-8083-exec-3] INFO  c.e.a.i.TenantInterceptor - [preHandle,67] - &&&&&&&&&&& 已设置租户:tenant02 连接信息: MasterTenant(id=1, tenant=tenant02, url=jdbc:mysql://localhost:3306/ec_PIcZ7MLd?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, databaseName=ec_PIcZ7MLd, username=ec_PIcZ7MLd, password=95dfBNXe, hostName=, status=1, expirationDate=Mon Sep 25 11:25:44 GMT+08:00 2023)
+16:35:39.873 [schedule-pool-1] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][验证码已失效]
+16:36:06.450 [http-nio-8083-exec-4] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+16:36:06.451 [http-nio-8083-exec-4] INFO  c.e.a.i.TenantInterceptor - [preHandle,69] - &&&&&&&&&&& 当前租户:tenant02
+16:36:06.477 [schedule-pool-1] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][验证码已失效]
+16:36:07.810 [http-nio-8083-exec-5] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+16:36:07.810 [http-nio-8083-exec-5] INFO  c.e.a.i.TenantInterceptor - [preHandle,69] - &&&&&&&&&&& 当前租户:tenant02
+16:36:07.831 [schedule-pool-2] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][验证码已失效]
+16:37:35.635 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====

@@ -1,0 +1,7 @@
+D:\projects\erp-crm\saas\src\main\java\com\ec\saas\domain\enums\TenantStatus.java
+D:\projects\erp-crm\saas\src\main\java\com\ec\saas\domain\MasterTenant.java
+D:\projects\erp-crm\saas\src\main\java\com\ec\saas\form\TenantRegisterBody.java
+D:\projects\erp-crm\saas\src\main\java\com\ec\saas\service\IMasterTenantService.java
+D:\projects\erp-crm\saas\src\main\java\com\ec\saas\mapper\MasterTenantMapper.java
+D:\projects\erp-crm\saas\src\main\java\com\ec\saas\dto\TenantDatabaseDTO.java
+D:\projects\erp-crm\saas\src\main\java\com\ec\saas\service\impl\MasterTenantServiceImpl.java

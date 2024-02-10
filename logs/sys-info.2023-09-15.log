@@ -1,0 +1,60 @@
+18:31:53.527 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+18:31:53.527 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarting,55] - Starting ErpCrmApplication using Java 17.0.6 on UNKNNOW with PID 5244 (D:\projects\erp-crm\center\target\classes started by 14280 in D:\projects\erp-crm)
+18:31:53.535 [restartedMain] INFO  c.e.ErpCrmApplication - [logStartupProfileInfo,674] - The following profiles are active: druid
+18:31:59.233 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+18:31:59.234 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:31:59.235 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+18:31:59.440 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:32:07.297 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+18:32:07.943 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarted,61] - Started ErpCrmApplication in 15.144 seconds (JVM running for 17.159)
+22:06:06.916 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:06:34.742 [http-nio-8080-exec-3] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:06:34.953 [http-nio-8080-exec-3] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+22:06:35.710 [http-nio-8080-exec-3] INFO  c.e.a.i.TenantInterceptor - [preHandle,67] - &&&&&&&&&&& 已设置租户:tenant4 连接信息: MasterTenant(id=23, tenant=tenant4, url=jdbc:mysql://localhost:3306/ryt_Nelub7xR?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, databaseName=ryt_Nelub7xR, username=ryt_Nelub7xR, password=DNTQQ7xm, hostName=null, status=1, expirationDate=Sun Mar 30 12:18:34 GMT+08:00 2025)
+22:06:35.921 [schedule-pool-1] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:07:35.243 [http-nio-8080-exec-5] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:07:35.244 [http-nio-8080-exec-5] INFO  c.e.a.i.TenantInterceptor - [preHandle,69] - &&&&&&&&&&& 当前租户:tenant4
+22:07:35.266 [schedule-pool-1] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:07:46.085 [http-nio-8080-exec-7] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:07:46.086 [http-nio-8080-exec-7] INFO  c.e.a.i.TenantInterceptor - [preHandle,69] - &&&&&&&&&&& 当前租户:tenant4
+22:07:46.108 [schedule-pool-2] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:07:50.564 [http-nio-8080-exec-9] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:07:50.565 [http-nio-8080-exec-9] INFO  c.e.a.i.TenantInterceptor - [preHandle,69] - &&&&&&&&&&& 当前租户:tenant4
+22:07:50.747 [http-nio-8080-exec-9] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-2} inited
+22:07:50.816 [Druid-ConnectionPool-Create-934996416] INFO  c.a.d.p.DruidAbstractDataSource - [setFailContinuous,1804] - {dataSource-2} failContinuous is true
+22:17:33.316 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+22:17:40.524 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarting,55] - Starting ErpCrmApplication using Java 17.0.6 on UNKNNOW with PID 15256 (D:\projects\erp-crm\center\target\classes started by 14280 in D:\projects\erp-crm)
+22:17:40.525 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+22:17:40.528 [restartedMain] INFO  c.e.ErpCrmApplication - [logStartupProfileInfo,674] - The following profiles are active: druid
+22:17:45.694 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:17:45.695 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:17:45.695 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+22:17:45.839 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:17:51.943 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:17:52.421 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarted,61] - Started ErpCrmApplication in 12.511 seconds (JVM running for 13.943)
+22:18:27.874 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+22:19:01.104 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarting,55] - Starting ErpCrmApplication using Java 1.8.0_144 on UNKNNOW with PID 19380 (D:\projects\erp-crm\center\target\classes started by 14280 in D:\projects\erp-crm)
+22:19:01.110 [restartedMain] INFO  c.e.ErpCrmApplication - [logStartupProfileInfo,674] - The following profiles are active: druid
+22:19:01.114 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+22:19:07.185 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+22:19:07.186 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:19:07.187 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+22:19:07.360 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:19:12.706 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+22:19:13.078 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarted,61] - Started ErpCrmApplication in 12.67 seconds (JVM running for 16.102)
+22:19:33.839 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:19:56.917 [http-nio-8080-exec-2] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:19:57.051 [http-nio-8080-exec-2] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+22:20:20.122 [http-nio-8080-exec-4] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:20:20.128 [http-nio-8080-exec-4] INFO  c.e.a.i.TenantInterceptor - [preHandle,67] - &&&&&&&&&&& 已设置租户:tenant4 连接信息: MasterTenant(id=23, tenant=tenant4, url=jdbc:mysql://localhost:3306/ryt_Nelub7xR?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, databaseName=ryt_Nelub7xR, username=root, password=root, hostName=null, status=1, expirationDate=Sun Mar 30 12:18:34 GMT+08:00 2025)
+22:20:20.389 [http-nio-8080-exec-4] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-2} inited
+22:20:20.661 [schedule-pool-1] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][用户不存在/密码错误]
+22:21:10.394 [http-nio-8080-exec-6] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:21:10.395 [http-nio-8080-exec-6] INFO  c.e.a.i.TenantInterceptor - [preHandle,69] - &&&&&&&&&&& 当前租户:tenant4
+22:21:10.576 [schedule-pool-1] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][用户不存在/密码错误]
+22:21:15.050 [http-nio-8080-exec-8] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:21:15.051 [http-nio-8080-exec-8] INFO  c.e.a.i.TenantInterceptor - [preHandle,69] - &&&&&&&&&&& 当前租户:tenant4
+22:21:15.078 [schedule-pool-2] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:21:22.398 [http-nio-8080-exec-10] INFO  c.e.a.i.TenantInterceptor - [preHandle,46] - &&&&&&&&&&&&&&&& 租户拦截 &&&&&&&&&&&&&&&&
+22:21:22.398 [http-nio-8080-exec-10] INFO  c.e.a.i.TenantInterceptor - [preHandle,69] - &&&&&&&&&&& 当前租户:tenant4
+22:21:22.583 [schedule-pool-1] INFO  sys-user - [run,59] - [127.0.0.1]内网IP[admin][Error][用户不存在/密码错误]

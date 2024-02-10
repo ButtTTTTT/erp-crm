@@ -1,0 +1,39 @@
+16:27:53.506 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarting,55] - Starting ErpCrmApplication using Java 1.8.0_144 on UNKNNOW with PID 22240 (D:\projects\erp-crm\center\target\classes started by 14280 in D:\projects\erp-crm)
+16:27:53.506 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+16:27:53.519 [restartedMain] INFO  c.e.ErpCrmApplication - [logStartupProfileInfo,674] - The following profiles are active: druid
+16:27:57.620 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8083"]
+16:27:57.620 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:27:57.621 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+16:27:57.721 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:27:59.511 [restartedMain] INFO  c.a.c.c.AjCaptchaServiceAutoConfiguration - [captchaService,33] - 自定义配置项：
+AjCaptchaProperties{type=DEFAULT, jigsaw='classpath:images/jigsaw', picClick='classpath:images/pic-click', waterMark='我的水印', waterFont='WenQuanZhengHei.ttf', fontType='WenQuanZhengHei.ttf', slipOffset='5', aesStatus=true, interferenceOptions='2', cacheNumber='1000', timingClear='180', cacheType=local, reqFrequencyLimitEnable=false, reqGetLockLimit=5, reqGetLockSeconds=360, reqGetMinuteLimit=30, reqCheckMinuteLimit=30, reqVerifyMinuteLimit=100}
+16:27:59.569 [restartedMain] INFO  c.a.c.u.ImageUtils - [cacheBootImage,58] - 自定义resource底图:[SLIDING_BLOCK=[Ljava.lang.String;@6b63d3c5, ORIGINAL=[Ljava.lang.String;@57d56789, PIC_CLICK=[Ljava.lang.String;@29b0ef29]
+16:27:59.571 [restartedMain] INFO  c.a.c.s.i.CaptchaServiceFactory - [<clinit>,52] - supported-captchaCache-service:[redis, local]
+16:27:59.575 [restartedMain] INFO  c.a.c.s.i.CaptchaServiceFactory - [<clinit>,58] - supported-captchaTypes-service:[clickWord, default, blockPuzzle]
+16:27:59.576 [restartedMain] INFO  c.a.c.s.i.ClickWordCaptchaServiceImpl - [init,76] - --->>>初始化验证码底图<<<---clickWord
+16:27:59.780 [restartedMain] INFO  c.a.c.s.i.ClickWordCaptchaServiceImpl - [init,92] - 初始化local缓存...
+16:27:59.929 [restartedMain] INFO  c.a.c.s.i.BlockPuzzleCaptchaServiceImpl - [init,76] - --->>>初始化验证码底图<<<---blockPuzzle
+16:28:00.083 [restartedMain] INFO  c.a.c.s.i.BlockPuzzleCaptchaServiceImpl - [init,92] - 初始化local缓存...
+16:28:02.643 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8083"]
+16:28:02.972 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarted,61] - Started ErpCrmApplication in 9.946 seconds (JVM running for 12.333)
+16:31:26.194 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
+16:31:32.627 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarting,55] - Starting ErpCrmApplication using Java 1.8.0_144 on UNKNNOW with PID 20752 (D:\projects\erp-crm\center\target\classes started by 14280 in D:\projects\erp-crm)
+16:31:32.630 [restartedMain] INFO  c.e.ErpCrmApplication - [logStartupProfileInfo,674] - The following profiles are active: druid
+16:31:32.633 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.0.Final
+16:31:36.715 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:31:36.716 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:31:36.716 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+16:31:36.808 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:31:38.631 [restartedMain] INFO  c.a.c.c.AjCaptchaServiceAutoConfiguration - [captchaService,33] - 自定义配置项：
+AjCaptchaProperties{type=DEFAULT, jigsaw='classpath:images/jigsaw', picClick='classpath:images/pic-click', waterMark='我的水印', waterFont='WenQuanZhengHei.ttf', fontType='WenQuanZhengHei.ttf', slipOffset='5', aesStatus=true, interferenceOptions='2', cacheNumber='1000', timingClear='180', cacheType=local, reqFrequencyLimitEnable=false, reqGetLockLimit=5, reqGetLockSeconds=360, reqGetMinuteLimit=30, reqCheckMinuteLimit=30, reqVerifyMinuteLimit=100}
+16:31:38.662 [restartedMain] INFO  c.a.c.u.ImageUtils - [cacheBootImage,58] - 自定义resource底图:[SLIDING_BLOCK=[Ljava.lang.String;@6b0ff9ec, ORIGINAL=[Ljava.lang.String;@42dd0612, PIC_CLICK=[Ljava.lang.String;@1acf5ada]
+16:31:38.664 [restartedMain] INFO  c.a.c.s.i.CaptchaServiceFactory - [<clinit>,52] - supported-captchaCache-service:[redis, local]
+16:31:38.668 [restartedMain] INFO  c.a.c.s.i.CaptchaServiceFactory - [<clinit>,58] - supported-captchaTypes-service:[clickWord, default, blockPuzzle]
+16:31:38.668 [restartedMain] INFO  c.a.c.s.i.ClickWordCaptchaServiceImpl - [init,76] - --->>>初始化验证码底图<<<---clickWord
+16:31:38.847 [restartedMain] INFO  c.a.c.s.i.ClickWordCaptchaServiceImpl - [init,92] - 初始化local缓存...
+16:31:39.002 [restartedMain] INFO  c.a.c.s.i.BlockPuzzleCaptchaServiceImpl - [init,76] - --->>>初始化验证码底图<<<---blockPuzzle
+16:31:39.180 [restartedMain] INFO  c.a.c.s.i.BlockPuzzleCaptchaServiceImpl - [init,92] - 初始化local缓存...
+16:31:41.741 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8080"]
+16:31:42.077 [restartedMain] INFO  c.e.ErpCrmApplication - [logStarted,61] - Started ErpCrmApplication in 9.91 seconds (JVM running for 12.065)
+16:31:52.182 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:33:10.515 [SpringApplicationShutdownHook] INFO  sys-user - [shutdownAsyncManager,28] - ====关闭后台任务任务线程池====
