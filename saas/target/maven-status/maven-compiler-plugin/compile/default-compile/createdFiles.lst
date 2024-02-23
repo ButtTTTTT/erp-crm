@@ -1,7 +1,0 @@
-com\ec\saas\domain\enums\TenantStatus.class
-com\ec\saas\service\IMasterTenantService.class
-com\ec\saas\domain\MasterTenant.class
-com\ec\saas\mapper\MasterTenantMapper.class
-com\ec\saas\service\impl\MasterTenantServiceImpl.class
-com\ec\saas\dto\TenantDatabaseDTO.class
-com\ec\saas\form\TenantRegisterBody.class
